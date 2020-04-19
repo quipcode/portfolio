@@ -1,0 +1,27 @@
+.timeline-classy{
+    background-color: #A4A4A4 ;
+}
+
+
+.timeline-element-classy{
+    background-image: url('../../assets/images/computer-icons-software-developer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; 
+    
+    /* float: right */
+    /* background-image: url(https://images.theweek.com/sites/default/files/styles/tw_image_9_4/public/istock-527028804.jpg?itok=VtQBDIcm&resize=450x200); */
+    /* background-color: pink */
+    
+    /* backgroundImage: 'https://images.theweek.com/sites/default/files/styles/tw_image_9_4/public/istock-527028804.jpg?itok=VtQBDIcm&resize=450x200' */
+}
+
+
+.timeline-element-classy2{
+    background-image: url('../../assets/images/Clipart-Email-9158026.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left; 
+    
+
+}
