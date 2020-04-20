@@ -3,7 +3,9 @@ import Header from './header/Header'
 import Skills from './skills/Skills'
 import Projects from './projects/Projects'
 import Experience from './experience/Experience'
-import Contact from './contact/Contact'
+import Social from './social/Social'
+import Greeting from './greeting/Greeting'
+import Footer from './footer/Footer'
 
 export default function Main(){
     const [isSticky, setSticky] = useState(false);
@@ -29,7 +31,7 @@ export default function Main(){
                     <div  className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
                     <Header  />
                     </div>
-                    
+                    <Greeting/>
                 
                
                 <Skills/>
@@ -39,7 +41,8 @@ export default function Main(){
               
               
                 <Experience/>
-                <Contact/>
+                <Social/>
+            
                 </React.Fragment>
          
         )

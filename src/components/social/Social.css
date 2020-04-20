@@ -29,6 +29,7 @@
 
 .contact-subtitle {
     text-transform: uppercase;
+   
 }
 
 .contact-text-div {
@@ -47,7 +48,7 @@
 }
 
 /* Media Query */
-@media (max-width: 1380px), (max-width: 768px) {
+@media (max-width: 1920px), (max-width: 1380px), (max-width: 768px) {
     .contact-title {
         font-size: 56px;
         font-weight: 400;
@@ -60,9 +61,10 @@
     }
 
     .contact-subtitle {
+        text-align: center;
         font-size: 16px;
         line-height: normal;
-        text-align: center;
+        
     }
 
     .contact-text-div {
@@ -78,4 +80,8 @@
     .contact-image-div {
         display: none;
     }
+}
+
+#social {
+    text-align: center;
 }

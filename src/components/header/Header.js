@@ -19,6 +19,10 @@ export default function Header(){
                     </label>
                     <ul className="menu">
                         <li>
+                            <a href="#greeting">Greetings</a>
+                        </li>
+                    
+                        <li>
                             <a href="#skills">Skills</a>
                         </li>
                         <li>
@@ -28,7 +32,7 @@ export default function Header(){
                             <a href="#experience">Experience</a>
                         </li>
                         <li>
-                            <a href="#contact">Contact Me</a>
+                            <a href="#social">Social</a>
                         </li>
                     </ul>
                 </header>

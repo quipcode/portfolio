@@ -18,5 +18,6 @@
   }
   
   .software-skill-inline > i:hover {
-    color: #645beb;
+    /* color: #645beb; */
+    color: #0055B7
   }
