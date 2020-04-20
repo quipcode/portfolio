@@ -1,7 +1,16 @@
+.main {
+  padding-top: 38px;
+}
+
 .project-title {
     font-size: 56px;
     font-weight: 400;
     line-height: normal;
+    
+    /* position: center; */
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .startup-project-text img{
@@ -13,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 1rem 1rem;
+    
   }
   
   /* Media Query */

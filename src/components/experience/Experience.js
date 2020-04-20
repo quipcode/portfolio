@@ -7,7 +7,13 @@ import Background1 from  '../../assets/images/computer-icons-software-developer.
 import Background2 from '../../assets/images/Clipart-Email-9158026.png'
 export default function Experience(){
     return(
+        <div className="main" id="experience">
         <React.Fragment>
+            <header></header>
+            <div className="heading">
+            <h2>Work Experience & Education</h2>
+            <p>Previous jobs and my qualifications.</p>
+            </div>
         <VerticalTimeline className="timeline-classy">
             <VerticalTimelineElement
                 className="vertical-timeline-element--work timeline-element-classy"
@@ -102,5 +108,6 @@ export default function Experience(){
             />
         </VerticalTimeline>
         </React.Fragment>
+        </div>
     )
 }
