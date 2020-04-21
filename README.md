@@ -1,4 +1,4 @@
-[sticky navbar](https://pantaley.com/blog/Create-sticky-header-only-with-React-Hooks/)
+The following [sticky navbar](https://pantaley.com/blog/Create-sticky-header-only-with-React-Hooks/) tutorial was used to implement the feature
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
