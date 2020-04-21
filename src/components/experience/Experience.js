@@ -98,7 +98,7 @@ export default function Experience(){
                 <h3 className="vertical-timeline-element-title"> Field Technician</h3>
                 <h4 className="vertical-timeline-element-subtitle"> Charter</h4>
                 <p>
-                Performed cable installation, reconnects, and upgrades for customers who seek
+                Performed cable installation, reconnects, and upgrades for customers who sought
 internet, video, and phone services
                 </p>
             </VerticalTimelineElement>
@@ -111,7 +111,7 @@ internet, video, and phone services
                 <h3 className="vertical-timeline-element-title"> IT Technician</h3>
                 <h4 className="vertical-timeline-element-subtitle">Mibura</h4>
                 <p>
-                Provide technical assistance and support for incoming queries and issues
+                Provided technical assistance and support for incoming queries and issues
 related to computer systems, software, and hardware 
                 </p>
             </VerticalTimelineElement>
@@ -160,7 +160,9 @@ as NIR, FTIR, UV-Visible, GC, UPLC and HPLC
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="2012"
-                iconStyle={{ background: 'rgb(49,23,1)' , color: '#fff' }}
+                iconStyle={{ background: 'rgb(245,186,44)' , color: '#215C9E' }}
+                
+                // iconStyle={{ background: 'rgb(49,23,1)' , color: '#fff' }}
                 // iconStyle={{ background: 'rgb(233, 30, 99)' , color: '#fff' }}
                 // contentStyle={{"color": "#fff";}}
                 contentStyle={{ "color": 'black'}}
@@ -174,7 +176,8 @@ as NIR, FTIR, UV-Visible, GC, UPLC and HPLC
             </VerticalTimelineElement>
             <VerticalTimelineElement
             // rgb(49,23,1)
-            iconStyle={{ background: 'rgb(49,23,1)', color: '#fff' }}
+            iconStyle={{ background: 'rgb(33,92,158)', color: '#F5BA2C' }}
+            // iconStyle={{ background: 'rgb(49,23,1)', color: '#fff' }}
                 // iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                 icon={<KeyboardArrowUpIcon />}
             />

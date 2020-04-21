@@ -6,6 +6,7 @@ import Experience from './experience/Experience'
 import Social from './social/Social'
 import Greeting from './greeting/Greeting'
 import Footer from './footer/Footer'
+import Top from './sections/topbutton/Top'
 
 export default function Main(){
     const [isSticky, setSticky] = useState(false);
@@ -41,8 +42,9 @@ export default function Main(){
               
               
                 <Experience/>
+                <Footer/>
                 <Social/>
-            
+                <Top/>
                 </React.Fragment>
          
         )

@@ -62,7 +62,7 @@ background: linear-gradient(90deg, rgba(0,158,75,1) 0%, rgba(0,85,183,1) 100%); 
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  /* float: right; */
+  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
