@@ -21,8 +21,11 @@ import SchoolIcon from '@material-ui/icons/School';
 
 export default function Experience(){
     return(
-        <div className="main" id="experience">
         <React.Fragment>
+        {/* <br id="experience"/>
+        <br/> */}
+        <div className="main" id="experience" >
+        
             <header></header>
             <div className="heading experience-heading">
             <h1 className="experience-title">Work Experience & Education</h1>
@@ -115,7 +118,8 @@ related to computer systems, software, and hardware
                 icon={<KeyboardArrowUpIcon />}
             />
         </VerticalTimeline>
-        </React.Fragment>
+       
         </div>
+        </React.Fragment>
     )
 }

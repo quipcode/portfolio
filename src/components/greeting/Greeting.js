@@ -23,7 +23,7 @@ export default function Greeting() {
               I am Ahmed Abdulkarim and welcome to my portfolio <br/> 
               <br/> 
               <b>Software Developer | Former Chemist | Diverse Experience </b> 
-              <p> Currently working as a support engineer resolving bugs & defect, and providing solutions to clients</p>
+              <p> Currently working as a support engineer resolving bugs & defects, and providing solutions to clients</p>
               <p> Seeking oppurtunities to perpetually learn and grow, lets connect</p>
               
               {/* <b>Mission statement:</b> Sowing the seeds of my potential in fallowed opportunities <br/> 

@@ -40,3 +40,7 @@
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   }
+
+  #projects{
+    padding-top: 50px;
+  }

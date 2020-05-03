@@ -26,10 +26,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills",
-  subTitle: "A prospecting developer who wants to survey and build, scalable and robust, application that solve real world problems",
+  subTitle: "A developer who enjoys building scalable and robust applications that solve real world problems",
   
   skills: [
-    "Creating full stack application Mongo Express React Node(MERN) app",
+    "Creating full stack Mongo Express React Node(MERN) apps",
     "Creating server side code to insert, create, read, and update, Microsoft SQL Server",
     "Implemented applications using C# , ASP.net, ADO.net, SQL Server, and .Net Framework with strong knowledge of Object-Oriented concepts"
   ],

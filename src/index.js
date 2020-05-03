@@ -7,13 +7,7 @@ import './assets/font-awesome/css/all.css'
 
 import 'font-awesome/css/font-awesome.min.css'
 import 'font-awesome/css/font-awesome.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-// import 'bootstrap-social/bootstrap-social.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import "bootstrap/dist/css/bootstrap.css";
-// import 'react-virtualized/styles.css';
-// import 'typeface-roboto';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

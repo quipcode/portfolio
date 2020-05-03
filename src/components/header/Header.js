@@ -1,44 +1,53 @@
-import React from "react";
-import './Header.css';
+import React, { useState } from 'react';
+import'./Header.css';
 import {Fade} from "react-reveal";
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink
+  } from 'reactstrap';
 
-
-export default function Header(){
-
+  const Header = (props) => {
+    const [isOpen, setIsOpen] = useState(false);
   
-    return(
+    const toggle = () => setIsOpen(!isOpen);
+  
+    return (
         <Fade top duration={1000} distance="20px"  >
-            <div   className="sticker"  >
-                <header className="header">
-                    <a href="" className="logo">
-                        {/* <span className="grey-color"> &lt;</span> */}
-                        <span className="logo-name" >Ahmed Abdulkarim</span>
-                        {/* <span className="grey-color">/&gt;</span> */}
-                    </a>
-                    <input className="menu-btn" type="checkbox" id="menu-btn" />
-                    <label className="menu-icon" htmlFor="menu-btn">
-                    <span className="navicon"></span>
-                    </label>
-                    <ul className="menu">
-                        <li>
-                            <a href="#greeting">Greetings</a>
-                        </li>
-                    
-                        <li>
-                            <a href="#skills">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#experience">Experience</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </header>
-            </div>
-         </Fade>
-    )
-}
+      <div style={{width:"100%", position: "fixed" , top:"0"}}>
+    
+        <Navbar   color="light" light expand="md" sticky={'top'}>
+          <NavbarBrand href="/" className="mybrand" style={{color: '#0055B7', fontSize : '1.6em'}}>Ahmed Abdulkarim</NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="justify-content-end" style={{ width: "100%" }}  navbar>
+              <NavItem>
+                <NavLink onClick={toggle} href="#greeting" style={{color: '#0055B7', fontSize : '1.1em'}}>Greetings</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink onClick={toggle} href="#skills" style={{color: '#0055B7', fontSize : '1.1em'}}>Skills</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink onClick={toggle} href="#projects" style={{color: '#0055B7', fontSize : '1.1em'}}>Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink onClick={toggle} href="#experience" style={{color: '#0055B7', fontSize : '1.1em'}}>Experience</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink onClick={toggle} href="#contact" style={{color: '#0055B7' , fontSize : '1.1em'}}>Contact</NavLink>
+              </NavItem>
+            </Nav>
+            
+          </Collapse>
+        </Navbar>
+      </div>
+      </Fade>
+    );
+  }
+  
+  export default Header;
+
