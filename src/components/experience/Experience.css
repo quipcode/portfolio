@@ -68,3 +68,16 @@ background: #E3E3E3;
 /* .heading{text-align:center;padding-bottom:45px}
 .heading p{font-family:Open Sans,sans-serif;font-size:14px;line-height:21px;font-weight:400;padding-bottom:22px;margin:0} */
 @media only screen and (max-width:480px){.heading{padding-bottom:25px}}
+
+
+@media (max-width: 1380px) {
+    .experience-title {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .experience-title {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
